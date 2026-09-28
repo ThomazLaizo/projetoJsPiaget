@@ -4,11 +4,16 @@ body{
     font-family: 'Roboto';
 }
 
+#titulo{
+    margin-left: 13rem;
+}
+
 #formulario{
     display: flex;
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-left: 3rem;
 }
 
 .campo{
@@ -34,5 +39,5 @@ body{
 }
 
 #paragrafo-soma{
-    color: red;
+    margin-left: 15rem;
 }

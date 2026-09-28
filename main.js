@@ -6,9 +6,9 @@ form.addEventListener('submit', function(e){
     const n2 = Number(document.getElementById('num2').value)
 
     const soma = (n1 + n2)
-
-    resultado.textContent = soma
+    resultado.textContent = ('O Resultado da soma é: ' + soma)
 })
-
-const resultado = document.createElement('p')
-resultado.id = 'paragrafo-soma' 
+    const corpo = document.getElementById('corpo')
+    const resultado = document.createElement('p')
+    resultado.id = 'paragrafo-soma' 
+    corpo.appendChild(resultado)
