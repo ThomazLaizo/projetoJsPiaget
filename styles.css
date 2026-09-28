@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.campo{
+    padding: 1rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center; 
+}
+
+#botao{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 8rem;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+}
+
+#botao:hover{
+    background-color: grey;
+}
+
+#paragrafo-soma{
+    color: red;
+}
